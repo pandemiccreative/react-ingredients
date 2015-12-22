@@ -1,3 +1,10 @@
-var app = 'This is an app.';
+import React from 'react';
+import List from './List.jsx';
 
-export default app;
+var App = React.createClass({
+  render: function(){
+    return <div><List /></div>
+  }
+});
+
+export default App;

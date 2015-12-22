@@ -1,3 +1,5 @@
-import app from './components/app.jsx';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App.jsx';
 
-console.log(app);
+ReactDOM.render(<App />, document.querySelector('.container'));
